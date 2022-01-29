@@ -1,0 +1,26 @@
+Services
+
+Custom software development: Complete software solutions born only from your unique needs to take
+          you and your organization to the next levels
+
+Web development: Whether you need to build a custom web page from scratch, migrate
+          your legacy backend, or streamline existing front-end functionality,
+          we can accomplish that efficiently and cost-effectively.
+
+Mobile development: Impressive smartphone and tablet solutions to boost your mobile
+          existence and impact your smart growth
+
+Technology consulting : Complete software solutions born only from your unique needs to take
+          you and your organization to the next levels
+
+Hardware setup: ...
+
+ETL: The process of extracting data from source systems and bringing it into the data warehouse is commonly called ETL that stands for extraction, transformation, and loading.
+
+Data migration : 01 technologies Data Migration service is designed for highly confidential, large, sensitive, mission-critical systems and databases. We can help your enterprise migrate all your essential and compulsory data with no harm to it
+
+Blockchain development: Creating, launching and managing of blockchain services such as smart
+          contracts, wallets, supply chains and dApps
+
+
+Contact us: hello@01tecnologies.co

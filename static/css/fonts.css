@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Quicksand;
+  src: url("/fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
+  /* preferred */
+}
+@font-face {
+  font-family: Comfortaa;
+  src: url("/fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf");
+  /* very rounded */
+}
+@font-face {
+  font-family: Roboto;
+  src: url("/fonts/Roboto/Roboto-Regular.ttf");
+  /* Thin & light */
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url("/fonts/Ubuntu/Ubuntu-Regular.ttf");
+  /* Pleasant & slightly bendy */
+}
+
+/* styles */
+*.quicksand {
+  font-family: Quicksand, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*.opensans {
+  font-family: OpenSans, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*.comfortaa {
+  font-family: Comfortaa, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*.roboto {
+  font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*.ubuntu {
+  font-family: Ubuntu, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,260 @@
+#main > *,
+#main .container {
+  min-width: 100%;
+}
+#main .container .features-header.text-center {
+  background: white;
+}
+
+/* most popular */
+#most_popular img#waves {
+  max-height: 90%;
+  min-width: 100%;
+}
+.xdivide-bottom::after {
+  content: " ";
+  width: 50%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+  border-radius: 5px;
+  background: #ffc258;
+}
+.xbg-blue-theme {
+  background: #0066ff;
+  /* rgb(0, 102, 255) */
+}
+#most-popular .hover-scale {
+  transition: all 0.3s ease;
+}
+#most-popular .hover-scale:hover {
+  transform: scale(1.2);
+}
+/* "More" Button */
+#most_popular .xmore {
+  /* background: #a370f0; */
+  background: #121010;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  /* box-shadow: inset 0 0 1.6em -0.6em #714da6; */
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+#most_popular .xmore .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  /* box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9; */
+  /* box-shadow: 0.1em 0.1em 0.6em 0.2em #0066ff; */
+  right: 0.3em;
+  transition: all 0.3s;
+}
+#most_popular .xmore:hover .icon {
+  width: calc(100% - 0.6em);
+}
+#most_popular .xmore .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  /* color: #7b52b9; */
+  color: #0066ff;
+}
+#most_popular .xmore:hover .icon svg {
+  transform: translateX(0.1em);
+}
+#most_popular .xmore:active .icon {
+  transform: scale(0.95);
+}
+
+/* values */
+#values {
+  background: #242830;
+}
+#values .xpattern-phone {
+  display: none;
+}
+#values .xpattern-pc {
+  display: block;
+}
+#values .xslant {
+  min-width: 150%;
+  min-width: 150%;
+  width: 150%;
+  bottom: -12%;
+  right: -15%;
+  transform: rotate(-4deg);
+}
+#values .custom-shape-divider-bottom-1641201278 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+#values .custom-shape-divider-bottom-1641201278 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 99px;
+}
+#values .custom-shape-divider-bottom-1641201278 .shape-fill {
+  fill: #ffffff;
+}
+
+/* why us */
+#why_us .xdivider {
+  background: gold;
+}
+#why_us .xtrigger:active > span {
+  color: white;
+  background: rgb(37, 99, 235);
+}
+#why_us .xtrigger:not(:active) > span:first-of-type {
+  background: white;
+  color: rgb(37, 99, 235);
+}
+#why_us .active .xfade {
+  animation: fade 1s linear 0s infinite;
+}
+
+/* apply */
+#apply .xapply a {
+  border: none;
+  background: none;
+}
+#apply a .xline {
+  padding-bottom: 7px;
+  text-transform: uppercase;
+  position: relative;
+}
+#apply .xline {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+#apply .xline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: gold;
+  transform-origin: bottom right;
+  transition: all 0.5s ease-out;
+}
+#apply a:hover .xline:after {
+  transform: scaleX(1);
+  transform: scaleY(1.5);
+  transform-origin: bottom left;
+}
+/*  */
+#bottom .xapply,
+#apply .xapply {
+  padding: 0.9em 2em;
+  border: 2px solid #0066ff;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #0066ff;
+}
+#bottom .xapply::before,
+#apply .xapply::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #0066ff;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+#bottom .xapply:hover::before,
+#apply .xapply:hover::before {
+  width: 105%;
+}
+#bottom .xapply:hover,
+#apply .xapply:hover {
+  color: white;
+}
+/*  */
+#apply .xlinks a:hover {
+  background: #0066ff;
+}
+
+@keyframes fade {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* how we help */
+#why_us .xblob:first-of-type {
+  bottom: 0px;
+  right: 0px;
+}
+#why_us .xblob:nth-of-type(2) {
+  bottom: 50px;
+  left: 5%;
+}
+
+/* responsive sm: */
+@media screen and (max-width: 640px) {
+  #vision_mission img {
+    position: static;
+    min-height: 140px;
+    min-width: 300px;
+    margin: 0px auto;
+  }
+  #vision_mission .xtx-cont {
+    min-width: 100%;
+  }
+  #values .xpattern-phone {
+    display: block;
+  }
+  #values .xpattern-pc {
+    display: none;
+  }
+  #values .xslant {
+    bottom: -5%;
+    transform: rotate(-8deg);
+  }
+}

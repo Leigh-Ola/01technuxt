@@ -1,0 +1,29 @@
+#topper .list_item .dropdown::after {
+  content: " ";
+  display: block;
+  z-index: 200;
+  background: transparent;
+  border: 3px solid black;
+  border-color: black black transparent transparent;
+  position: absolute;
+  right: calc(50% - 2px);
+  height: 5px;
+  width: 5px;
+  transform: rotate(135deg);
+  transition: all 0.5s ease;
+  top: calc(50% - 3px);
+}
+#topper .sub_list_box {
+  max-height: 320px;
+  display: flex;
+  transition: all 0.5s ease;
+}
+#topper .sub_list_box.hide {
+  max-height: 0px;
+}
+#topper .xmobile .xmobile_nav {
+  box-shadow: 1.3px 0.5px 0.9px rgba(0, 0, 0, 0.068),
+    3.3px 1.3px 2.2px rgba(0, 0, 0, 0.103),
+    6.7px 2.7px 4.4px rgba(0, 0, 0, 0.127),
+    13.9px 5.5px 9.1px rgba(0, 0, 0, 0.143), 38px 15px 25px rgba(0, 0, 0, 0.15);
+}
